@@ -1,0 +1,2 @@
+include ':app', ':favoriteapp'
+rootProject.name='App for Submit MADE 3'

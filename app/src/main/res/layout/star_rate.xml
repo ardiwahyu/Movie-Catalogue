@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/rate1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_none_star"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/rate2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_none_star"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/rate3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_none_star"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/rate4"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_none_star"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/rate5"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_none_star"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/tv_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="0.0"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>

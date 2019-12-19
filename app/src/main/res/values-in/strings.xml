@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">App for Submit MADE 4</string>
+    <string name="title_movie">Film</string>
+    <string name="title_tv_show">Tayangan TV</string>
+    <string name="title_app">Katalog Film</string>
+    <string name="setting">Pengaturan</string>
+    <string name="choose_languange">Pilih Bahasa...</string>
+    <string name="apply">Gunakan</string>
+    <string name="read_synopsis">BACA RINGKASAN</string>
+    <string name="hide">SEMBUNYIKAN</string>
+    <string name="title_detail">Detail Film</string>
+    <string name="trailer_not">TRAILER TIDAK DITEMUKAN</string>
+    <string name="release_date">Tanggal rilis</string>
+    <string name="popularity">Popularitas</string>
+    <string name="vote_count">Banyak suara</string>
+    <string name="original_language">Bahasa asli</string>
+    <string name="con_fail_title">Koneksi Gagal</string>
+    <string name="con_fail_body">Mohon periksa koneksi internet anda</string>
+    <string name="server_eror">Server Eror</string>
+    <string name="server_eror_body">Cobalah beberapa saat lagi</string>
+    <string name="no_overview">Tidak ada sinopsis</string>
+    <string name="set_as_favorite">Atur sebagai favorite</string>
+    <string name="favorite">Favorit</string>
+    <string name="remove">Dihapus dari favorit</string>
+    <string name="setfavorite">Diatur sebagai favorite</string>
+    <string name="message_favorite">Ketuk pada film apa saja pada list dan ketuk tombol favorit untuk menambahkan ke favorit list, agar anda dapat dengan mudah menemukannya nanti.</string>
+    <string name="search">Cari</string>
+    <string name="search_movie">Cari Film</string>
+    <string name="search_tv">Cari Tayangan TV</string>
+    <string name="try_again">COBA LAGI</string>
+    <string name="exit">KELUAR</string>
+    <string name="reminder">Pengingat</string>
+    <string name="language">Bahasa</string>
+    <string name="daily_reminder_desc">Pengingat untuk kembali ke aplikasi</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="release_reminder_desc">Pengingat untuk film yang rilis hari ini</string>
+    <string name="release_reminder">Pengingat Rilis</string>
+    <string name="search_favorite">Cari favorite</string>
+
+    <plurals name="minute">
+        <item quantity="one">%d Menit</item>
+        <item quantity="other">%d Menit</item>
+    </plurals>
+</resources>

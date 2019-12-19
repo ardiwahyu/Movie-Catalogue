@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".LanguageActivity">
+
+    <RadioGroup
+        android:id="@+id/rg_languange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_indonesia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/indonesia"
+            android:layout_marginBottom="8dp"
+            style="@style/TextAppearance.AppCompat.Medium"/>
+
+        <RadioButton
+            android:id="@+id/rb_english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:layout_marginBottom="8dp"
+            style="@style/TextAppearance.AppCompat.Medium"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apply"
+        android:paddingHorizontal="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#2ecc71"
+        android:textColor="#FFF"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:visibility="gone"/>
+
+</LinearLayout>
